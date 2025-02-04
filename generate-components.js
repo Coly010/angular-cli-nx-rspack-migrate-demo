@@ -46,7 +46,7 @@ function generateComponents() {
     let directoryClassName = `Level${j}`
 
     const componentsToImport = [];
-    for (let i = 0; i < 500; i++) {
+    for (let i = 0; i < 1000; i++) {
       const componentName = `${directoryName}-component${i}`;
       const componentClassName = `${directoryClassName}Component${i}`;
       const importPath = `${directoryName}/${componentName}.component`;
