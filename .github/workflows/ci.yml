@@ -25,5 +25,5 @@ jobs:
           node-version: 20.12
           cache: 'npm'
 
-      - run: npm ci
+      - run: npm ci --force
       - run: npm run build
