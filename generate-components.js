@@ -41,7 +41,7 @@ function component(name, className, directory, componentsToImport) {
 }
 
 function generateComponents() {
-  for(let j = 25; j > 0; j--) {
+  for(let j = 30; j > 0; j--) {
     let directoryName = `level${j}`;
     let directoryClassName = `Level${j}`
 

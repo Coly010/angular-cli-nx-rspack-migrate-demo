@@ -25,6 +25,11 @@ import {Level22Component1501Component} from './level22/level22-component1501.com
 import {Level23Component1501Component} from './level23/level23-component1501.component';
 import {Level24Component1501Component} from './level24/level24-component1501.component';
 import {Level25Component1501Component} from './level25/level25-component1501.component';
+import {Level26Component1501Component} from './level26/level26-component1501.component';
+import {Level27Component1501Component} from './level27/level27-component1501.component';
+import {Level28Component1501Component} from './level28/level28-component1501.component';
+import {Level29Component1501Component} from './level29/level29-component1501.component';
+import {Level30Component1501Component} from './level30/level30-component1501.component';
 
 @Component({
   selector: 'app-root',
@@ -53,7 +58,13 @@ import {Level25Component1501Component} from './level25/level25-component1501.com
     Level22Component1501Component,
     Level23Component1501Component,
     Level24Component1501Component,
-    Level25Component1501Component],
+    Level25Component1501Component,
+    Level26Component1501Component,
+    Level27Component1501Component,
+    Level28Component1501Component,
+    Level29Component1501Component,
+    Level30Component1501Component,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

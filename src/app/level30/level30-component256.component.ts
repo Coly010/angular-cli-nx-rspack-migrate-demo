@@ -1,0 +1,8 @@
+import { Component } from '@angular/core';
+
+@Component({
+    
+    selector: 'app-level30-component256',
+    templateUrl: './level30-component256.component.html',
+  })
+  export class Level30Component256Component {}
