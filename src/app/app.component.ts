@@ -20,10 +20,16 @@ import {Level17Component1501Component} from './level17/level17-component1501.com
 import {Level18Component1501Component} from './level18/level18-component1501.component';
 import {Level19Component1501Component} from './level19/level19-component1501.component';
 import {Level20Component1501Component} from './level20/level20-component1501.component';
+import {Level21Component1501Component} from './level21/level21-component1501.component';
+import {Level22Component1501Component} from './level22/level22-component1501.component';
+import {Level23Component1501Component} from './level23/level23-component1501.component';
+import {Level24Component1501Component} from './level24/level24-component1501.component';
+import {Level25Component1501Component} from './level25/level25-component1501.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,Level1Component1501Component,
+  imports: [RouterOutlet,
+    Level1Component1501Component,
     Level2Component1501Component,
     Level3Component1501Component,
     Level4Component1501Component,
@@ -42,7 +48,12 @@ import {Level20Component1501Component} from './level20/level20-component1501.com
     Level17Component1501Component,
     Level18Component1501Component,
     Level19Component1501Component,
-    Level20Component1501Component],
+    Level20Component1501Component,
+    Level21Component1501Component,
+    Level22Component1501Component,
+    Level23Component1501Component,
+    Level24Component1501Component,
+    Level25Component1501Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
