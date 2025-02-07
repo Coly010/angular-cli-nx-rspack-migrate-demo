@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "build": "nx rspack:build",
+    "start": "nx serve",
+    "watch": "nx build --watch --configuration development",
+    "test": "nx test"
   },
   "private": true,
   "dependencies": {
@@ -24,8 +24,24 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.1.5",
+    "@angular-devkit/core": "^19.1.5",
+    "@angular-devkit/schematics": "^19.1.5",
     "@angular/cli": "^19.1.5",
     "@angular/compiler-cli": "^19.1.0",
+    "@ng-rspack/build": "~19.0.0-alpha.26",
+    "@nx/angular": "0.0.0-pr-29860-43e1fcb",
+    "@nx/js": "0.0.0-pr-29860-43e1fcb",
+    "@nx/rspack": "0.0.0-pr-29860-43e1fcb",
+    "@nx/workspace": "0.0.0-pr-29860-43e1fcb",
+    "@rspack/cli": "^1.1.5",
+    "@rspack/core": "^1.1.5",
+    "@rspack/dev-server": "1.0.9",
+    "@rspack/plugin-minify": "^0.7.5",
+    "@rspack/plugin-react-refresh": "^1.0.0",
+    "@schematics/angular": "^19.1.5",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.5.0",
     "karma": "~6.4.0",
@@ -33,6 +49,9 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "nx": "0.0.0-pr-29860-43e1fcb",
+    "prettier": "^2.6.2",
+    "react-refresh": "~0.14.0",
     "typescript": "~5.7.2"
   }
 }
